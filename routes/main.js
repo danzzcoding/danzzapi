@@ -19,8 +19,8 @@ router.get('/signup', (req, res) => {
     res.sendFile(__path + '/views/signup.html')
 })
 
-router.get('/docs', (req, res) => {
-    res.sendFile(__path + '/views/docs.html')
+router.get('/dashboard', (req, res) => {
+    res.sendFile(__path + '/views/dashboard.html')
 })
 
 router.get('/api/downloader', (req, res) => {
