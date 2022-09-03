@@ -23,27 +23,27 @@ router.get('/docs', (req, res) => {
     res.sendFile(__path + '/views/docs.html')
 })
 
-router.get('/downloader', (req, res) => {
+router.get('/api/downloader', (req, res) => {
     res.sendFile(__path + '/views/downloader.html')
 })
 
-router.get('/asupan', (req, res) => {
+router.get('/api/asupan', (req, res) => {
     res.sendFile(__path + '/views/asupan.html')
 })
 
-router.get('/cecan', (req, res) => {
+router.get('/api/cecan', (req, res) => {
     res.sendFile(__path + '/views/cecan.html')
 })
 
-router.get('/convert', (req, res) => {
+router.get('/api/convert', (req, res) => {
     res.sendFile(__path + '/views/convert.html')
 })
 
-router.get('/canvas', (req, res) => {
+router.get('/api/canvas', (req, res) => {
     res.sendFile(__path + '/views/canvas.html')
 })
 
-router.get('/random', (req, res) => {
+router.get('/api/random', (req, res) => {
     res.sendFile(__path + '/views/random.html')
 })
 
